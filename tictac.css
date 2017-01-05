@@ -1,0 +1,20 @@
+body { text-align : centre; height:100%; width :100%; margin:0; padding:0 }
+div { position:absolute; width:10%; height:15% }
+.tl { top:27.5%;   left:35%;   border: 2px solid black }
+.tm { top:27.5%;   left:45%; border: 2px solid black    }
+.jd { top:27.5%;   left:55%; border: 2px solid black}
+.lm { top:42.5%;   left:35%;   border: 2px solid black   }
+.mm { top:42.5%;   left:45%; border: 2px solid black   }  
+.kd { top:42.5%;   left:55%; border: 2px solid black}
+.bb { top:57.5%;   left:35%;   border: 2px solid black }
+.bm { top:57.5%;   left:45%; border: 2px solid black}
+.bmt{ top:57.5%;   left:55%; border: 2px solid black}
+
+button,img {
+    height: 100%;
+    width: 100%;
+}
+p {
+    font-size:100%;
+}
+}
