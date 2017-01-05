@@ -6,6 +6,7 @@ function myFunction(){if(count===0 || count===2 || count===4 || count===6 || cou
     document.getElementById('myImage').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b").disabled = true; 
 
     result();
@@ -14,6 +15,10 @@ function myFunction(){if(count===0 || count===2 || count===4 || count===6 || cou
 
 
 
+=======
+    result();
+       }
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
 function myFunction1(){
 
     
@@ -24,7 +29,10 @@ function myFunction1(){
     document.getElementById('myImage1').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b1").disabled = true; 
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     result();
 }
 function myFunction2(){
@@ -37,7 +45,10 @@ function myFunction2(){
     document.getElementById('myImage2').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b2").disabled = true; 
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     result();
 }
 function myFunction3(){
@@ -50,7 +61,10 @@ function myFunction3(){
     document.getElementById('myImage3').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b3").disabled = true;
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     result();
 }
 function myFunction4(){
@@ -63,7 +77,10 @@ function myFunction4(){
     document.getElementById('myImage4').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b4").disabled = true;
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     result();
 }
 function myFunction5(){
@@ -76,7 +93,10 @@ function myFunction5(){
     document.getElementById('myImage5').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b5").disabled = true;
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     result();
 }
 function myFunction6(){
@@ -89,7 +109,10 @@ function myFunction6(){
     document.getElementById('myImage6').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b6").disabled = true;
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     result();
 }
 function myFunction7(){
@@ -102,7 +125,10 @@ function myFunction7(){
     document.getElementById('myImage7').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b7").disabled = true;
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     result();
 }
 function myFunction8(){
@@ -115,11 +141,15 @@ function myFunction8(){
     document.getElementById('myImage8').src='y.jpg';
     }
     count=count+1;
+<<<<<<< HEAD
     document.getElementById("b8").disabled = true;
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     result();
 }
 
  function result(){
+<<<<<<< HEAD
     console.log(document.getElementById('myImage8').src);
     if(document.getElementById('myImage').src.includes('x.jpg') && document.getElementById('myImage1').src.includes('x.jpg') && document.getElementById('myImage2').src.includes('x.jpg') || document.getElementById('myImage3').src.includes('x.jpg') && document.getElementById('myImage4').src.includes('x.jpg') && document.getElementById('myImage5').src.includes('x.jpg') || document.getElementById('myImage6').src.includes('x.jpg') && document.getElementById('myImage7').src.includes('x.jpg') && document.getElementById('myImage8').src.includes('x.jpg') || document.getElementById('myImage').src.includes('x.jpg') && document.getElementById('myImage3').src.includes('x.jpg') && document.getElementById('myImage6').src.includes('x.jpg') || document.getElementById('myImage1').src.includes('x.jpg') && document.getElementById('myImage4').src.includes('x.jpg') && document.getElementById('myImage7').src.includes('x.jpg') || document.getElementById('myImage2').src.includes('x.jpg') && document.getElementById('myImage5').src.includes('x.jpg') && document.getElementById('myImage8').src.includes('x.jpg') || document.getElementById('myImage').src.includes('x.jpg') && document.getElementById('myImage4').src.includes('x.jpg') && document.getElementById('myImage8').src.includes('x.jpg') || document.getElementById('myImage2').src.includes('x.jpg') && document.getElementById('myImage4').src.includes('x.jpg') && document.getElementById('myImage6').src.includes('x.jpg'))
     {
@@ -146,9 +176,17 @@ function myFunction8(){
         document.getElementById("b6").disabled = true;
         document.getElementById("b7").disabled = true;
         document.getElementById("b8").disabled = true;
+=======
+    if(count<7)
+    {
+document.getElementById("demo").innerHTML = "You Win";
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
     }
     else{
         document.getElementById("demo").innerHTML = "Tie";
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f39dcd9a340311744bfdc33bda919a2a634377ed
  }
